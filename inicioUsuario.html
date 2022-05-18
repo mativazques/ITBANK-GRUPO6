@@ -16,7 +16,63 @@
 <body>
     <header>
           <img src="/imagenes/logo.png" alt="">
+          <a id="boton_desplegable" class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+              </svg>
+          </a>
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Bienvenido Matias</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div id="Opciones">
+                <a href="#">
+                    Inicio
+                </a>
+                <a href="#">
+                    Perfil
+                </a>
+                <a href="#">
+                    Tú dinero
+                </a>
+                <hr>
+                <a href="#">
+                    Tarjetas
+                </a>
+                <a href="#">
+                    Actividad
+                </a>
+                <a href="#">
+                    Facturación
+                </a>
+                <hr>
+                <a href="#">
+                    Enviar Dinero
+                </a>
+                <a href="#">
+                    Transferencia
+                </a>
+                <a href="#">
+                   Link de pago 
+                </a>
+                <hr>
+                <a href="#">
+                    Negocio
+                </a>
+                <a href="#">
+                    Ayuda
+                </a>
+              </div>
+              <div class="d-grid">
+                <button type="button" class="btn btn-danger">Cerrar Sesión</button>
+              </div>
+              
+            </div>
+          </div>
     </header>
+    
     <section id="movimientosRapidos">
         <div class="dineroDisponible">
             <span>
