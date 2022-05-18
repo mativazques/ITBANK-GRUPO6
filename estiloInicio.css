@@ -1,0 +1,132 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: solid 1px #cfcfcf;
+}
+.dropdown{
+    display: inline-block;
+    margin: 5px 20px ;
+}
+
+.btn{
+    background-color: #0004e2 !important;
+    border: solid 1px #0004e2 !important;
+}
+
+.dropdown-menu{
+    width: 250px;
+}
+
+nav button{
+    border-style: none;
+    background-color: #ffffff;
+    margin: 5px 20px;
+}
+
+/* ATAJOS */
+
+#movimientosRapidos{
+    width: 90%;
+    height: 200px;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: solid 1px #cfcfcf;
+    box-shadow: 1px 1px 10px #cfcfcf
+}
+
+.dineroDisponible{
+    margin: 10px 0;
+    text-align: center;
+}
+
+.atajos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.atajos a{
+    text-align: center;
+    background-color: #0004ff5b;
+    margin: 1px;
+    font-size: 12px;
+    width: 80px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 10px 10px;
+    color: black;
+    text-decoration: none;
+}
+
+/* ACTIVIDAD */
+
+#actividad{
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: solid 1px #cfcfcf;
+    box-shadow: 1px 1px 10px #cfcfcf;
+}
+
+#actividad h2{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.actividadHecha{
+    margin: 10px 0;
+    text-align: center;
+}
+
+.actividadHecha a{
+    text-decoration: none;
+}
+
+/* VERSION PARA PC */
+
+@media screen and (min-width: 992px) {
+    nav button{
+       visibility: hidden;
+    }
+
+    nav{
+        flex-direction: row-reverse;
+        top: 0;
+        left: 35px;
+        height: 50px;
+        justify-content:left;
+        width: 400px;
+        margin-top: 20px;
+        border: none;
+    }
+
+    header{
+        height: 50px;
+        margin-top: 20px;
+    }
+    header img{
+        float: right;
+        margin-right: 45px;
+        cursor: pointer;
+    }
+
+    #movimientosRapidos{
+        width: 70%;
+        margin: 40px auto;
+        box-shadow: none;
+        border: none;
+    }
+    
+    .dineroDisponible span{
+        padding: 0 30px;
+    }
+  }
