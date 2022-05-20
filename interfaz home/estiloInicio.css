@@ -2,10 +2,12 @@
   font-family: sans-serif;
 }
 
+
 nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  background-color: #ffffff;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -139,6 +141,7 @@ nav button {
     float: right;
     margin-right: 45px;
     cursor: pointer;
+    width: 200px;
   }
 
   #movimientosRapidos {
@@ -190,4 +193,5 @@ nav button {
   #boton {
     visibility: visible;
   }
+
 }
