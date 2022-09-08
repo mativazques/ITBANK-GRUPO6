@@ -1,2 +1,2 @@
 # ITBANK-GRUPO6
-Proyecto de Homebanking 
+Realización del Layout de la página de ITBANK.
